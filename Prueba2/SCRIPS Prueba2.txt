@@ -1,0 +1,153 @@
+---------------------------------------------------------------------------------------------
+INSERCION DE DATOS
+---------------------------------------------------------------------------------------------
+CREATE (a1:Lugar{nombre: 'Casa'}),
+(a2:Lugar{nombre: 'Colegio Benigno Malo'}),
+(a3:Lugar{nombre: 'Colegio Alemán Stiehle de Cuenca'}),
+(a4:Lugar{nombre: 'Colegio interandino'}),
+(a5:Lugar{nombre: 'Colegio Atlantico'}),
+(a6:Lugar{nombre: 'Unidad Educativa Salesiana María Auxiliadora'}),
+(a7:Lugar{nombre: 'Colegio Bilingue Interamericano'}),
+(a8:Lugar{nombre: 'Unidad Educativa Particular CEDFI'}),
+(a9:Lugar{nombre: 'Colegio de Bachillerato Bill Gates'}),
+(a10:Lugar{nombre: 'Escuela Inmaculada'}),
+(a11:Lugar{nombre: 'Escuela Carlos Crespi'}),
+(a12:Lugar{nombre: 'Academia Cuenca'}),
+(a13:Lugar{nombre: 'Escuela Federico Proaño'}),
+(a14:Lugar{nombre: 'padre juan bautista aguirre'}),
+(a15:Lugar{nombre: 'Hernán Cordero Crespo'}),
+(a16:Lugar{nombre: 'Escuela Carlos Zambrano O.'}),
+(a17:Lugar{nombre: 'Escuela Hermano Miguel'}),
+(a18:Lugar{nombre: 'Gnosis Cuenca'}),
+(a19:Lugar{nombre: 'Unidad Educativa Ciudad de Cuenca'}),
+(a20:Lugar{nombre: 'Escuela Eugenio Espejo'}),
+(a21:Lugar{nombre: 'Universidad de Cuenca'}),
+(a22:Lugar{nombre: 'Universidad del Azuay'}),
+(a23:Lugar{nombre: 'Universidad Católica de Cuenca (Casa Administrativa)'}),
+(a24:Lugar{nombre: 'Unidad Centro Histórico, Universidad Católica de Cuenca'}),
+(a25:Lugar{nombre: 'Facultad de Ciencias de la Hospitalidad Universidad de Cuenca'}),
+(a26:Lugar{nombre: 'Facultad de Psicología de la universidad de cuenca'}),
+(a27:Lugar{nombre: 'Campus Centro Histórico de la Universidad de Cuenca'}),
+(a28:Lugar{nombre: 'Facultad De Ciencias Economicas Y Administrativas'}),
+(a29:Lugar{nombre: 'Administración Central'}),
+(a30:Lugar{nombre: 'Casal Velez Universidad de Cuenca'}),
+(a31:Lugar{nombre: 'Unidad Educativa República del Ecuador'}),
+(a32:Lugar{nombre: 'Unidad Educativa Kennedy'}),
+(a33:Lugar{nombre: 'Unidad Educativa Particular COREL'}),
+(a35:Lugar{nombre: 'Unidad Educativa Salesiana María Auxiliadora'}),
+(a36:Lugar{nombre: 'CEBCI Unidad Educativa'}),
+(a37:Lugar{nombre: 'Unidad Educativa Juan Montalvo'}),
+(a38:Lugar{nombre: 'Unidad Educativa Ciudad de Cuenca'}),
+(a40:Lugar{nombre: 'Unidad Educativa Sagrados Corazones'}),
+(a41:Lugar{nombre: 'Universidad Politécnica Salesiana del Ecuador'}),
+(a42:Lugar{nombre: 'Colegio Bilingue Interamericano'}),
+(a43:Lugar{nombre: 'Unidad Educativa " Juan Pablo II "'}),
+(a44:Lugar{nombre: 'Unidad Educativa Técnico Salesiano'}),
+(a45:Lugar{nombre: 'Unidad Educativa La Asunción'}),
+(a46:Lugar{nombre: 'Unidad Educativa Particular Dominicana "San Luis Beltrán"'}),
+(a47:Lugar{nombre: 'Unidad Educativa Porvenir'}),
+(a48:Lugar{nombre: 'Unidad Educativa Fiscomisional Semipresencial del Azuay'}),
+(a49:Lugar{nombre: 'Nuestra Familia'}),
+(a50:Lugar{nombre: 'Unidad Educatica Liceo Americano Catolico'}),
+(a51:Lugar{nombre: 'Unidad Educativa Velasco Ibarra'}),
+(a52:Lugar{nombre: 'Colegio Ecuador'}),
+(a1)-[:Distancia{metros:2800}]->(a17),
+(a1)-[:Distancia{metros:1140}]->(a15),
+(a1)-[:Distancia{metros:1350}]->(a23),
+(a1)-[:Distancia{metros:3400}]->(a4),
+(a4)-[:Distancia{metros:500}]->(a41),
+(a41)-[:Distancia{metros:1130}]->(a14),
+(a14)-[:Distancia{metros:1050}]->(a12),
+(a12)-[:Distancia{metros:1000}]->(a10),
+(a10)-[:Distancia{metros:140}]->(a33),
+(a33)-[:Distancia{metros:1370}]->(a32), 
+(a32)-[:Distancia{metros:6570}]->(a3),
+(a4)-[:Distancia{metros:875}]->(a37),
+(a37)-[:Distancia{metros:8200}]->(a3),
+(a23)-[:Distancia{metros:490}]->(a13),
+(a13)-[:Distancia{metros:240}]->(a11),
+(a11)-[:Distancia{metros:150}]->(a27),
+(a27)-[:Distancia{metros:370}]->(a46),
+(a46)-[:Distancia{metros:720}]->(a5),
+(a5)-[:Distancia{metros:24}]->(a18),
+(a18)-[:Distancia{metros:40}]->(a6),
+(a6)-[:Distancia{metros:270}]->(a24),
+(a24)-[:Distancia{metros:700}]->(a48),
+(a48)-[:Distancia{metros:650}]->(a16),
+(a16)-[:Distancia{metros:818}]->(a36),
+(a36)-[:Distancia{metros:1240}]->(a45),
+(a45)-[:Distancia{metros:100}]->(a22),
+(a22)-[:Distancia{metros:1950}]->(a25),
+(a25)-[:Distancia{metros:250}]->(a2),
+(a2)-[:Distancia{metros:340}]->(a29),
+(a29)-[:Distancia{metros:120}]->(a21),
+(a13)-[:Distancia{metros:1170}]->(a30),
+(a30)-[:Distancia{metros:283}]->(a28),
+(a28)-[:Distancia{metros:60}]->(a26),
+(a26)-[:Distancia{metros:20}]->(a21),
+(a21)-[:Distancia{metros:120}]->(a29),
+(a29)-[:Distancia{metros:340}]->(a2),
+(a15)-[:Distancia{metros:220}]->(a52),
+(a52)-[:Distancia{metros:70}]->(a40),
+(a40)-[:Distancia{metros:850}]->(a28),
+(a28)-[:Distancia{metros:60}]->(a26),
+(a26)-[:Distancia{metros:20}]->(a21),
+(a21)-[:Distancia{metros:120}]->(a29),
+(a29)-[:Distancia{metros:340}]->(a2),
+(a15)-[:Distancia{metros:220}]->(a52),
+(a52)-[:Distancia{metros:70}]->(a40),
+(a40)-[:Distancia{metros:1860}]->(a49),
+(a49)-[:Distancia{metros:420}]->(a7),
+(a7)-[:Distancia{metros:640}]->(a44),
+(a15)-[:Distancia{metros:50}]->(a31),
+(a31)-[:Distancia{metros:1350}]->(a20),
+(a20)-[:Distancia{metros:1000}]->(a51),
+(a51)-[:Distancia{metros:316}]->(a44),
+(a17)-[:Distancia{metros:1000}]->(a50),
+(a50)-[:Distancia{metros:514}]->(a47),
+(a47)-[:Distancia{metros:1210}]->(a19),
+(a19)-[:Distancia{metros:690}]->(a43),
+(a17)-[:Distancia{metros:2430}]->(a8),
+(a8)-[:Distancia{metros:2500}]->(a43);
+----------------------------------------------------------------------------------------------
+BUSQUEDA POR AMPLITUD
+Nodo Inicio: Casa
+Nodo Final: Colegio Alemán Stiehle de Cuenca
+
+CALL gds.graph.create('Prueba', 'Lugar', 'Distancia', { relationshipProperties: 'metros' })
+------------------------------------------------------------------------------------------------
+MATCH (a1:Lugar{nombre:'Casa'}), (a51:Lugar{nombre:'Colegio Alemán Stiehle de Cuenca'}) 
+WITH id(a1) AS startNode, [id(a51)] AS targetNodes
+CALL gds.alpha.bfs.stream('Prueba2', {startNode:startNode, targetNodes:targetNodes,maxDepth: 1 })
+YIELD path 
+UNWIND [n in nodes (path) | n.nombre] AS nombres 
+RETURN nombres
+------------------------------------------------------------------------------------------------
+Busqueda por Profunidad
+CALL gds.graph.create('profundidad', 'Lugar', 'Distancia', {relationshipProperties:'metros'})
+--------------------------------------------------------------------------------------------------
+MATCH (a:Lugar{nombre:'Casa'}),(e:Lugar{nombre:'Colegio Alemán Stiehle de Cuenca'})
+WITH id(a) AS startNode, [id(e)] AS targetNodes
+CALL gds.alpha.dfs.stream('profundidad', {startNode: startNode, targetNodes: targetNodes})
+YIELD path
+UNWIND [ n in nodes(path) | n.nombre ] AS nombres
+RETURN nombres
+----------------------------------------------------------------------------------------------------
+Busqueda Por Costos
+----------------------------------------------------------------------------------------------------
+MATCH (start:Lugar {nombre: 'Casa'}), (end:Lugar {nombre: 'Universidad de Cuenca'})
+CALL gds.alpha.shortestPath.stream({
+ nodeProjection: 'Lugar',
+ relationshipProjection: {
+ Distancia: {
+ type: 'Distancia',
+ properties: 'metros',
+ orientation: 'UNDIRECTED'
+ }
+ },
+ startNode: start,
+ endNode: end,
+ relationshipWeightProperty: 'metros'
+})
+YIELD nodeId, cost
+RETURN gds.util.asNode(nodeId).nombre AS name, cost
